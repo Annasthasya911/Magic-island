@@ -152,9 +152,9 @@ void getTransformationDescription(const string& paper) {
     } else if (paper == "Thorn") {
         cout << "Tubuh dihiasi duri kokoh dan kekuatan bertahan aktif.\n";
     } else if (paper == "Wave") {
-        cout << "Menjadi wujud laut — mengendalikan air dan gelombang pasang.\n";
+        cout << "Menjadi wujud laut â€” mengendalikan air dan gelombang pasang.\n";
     } else if (paper == "Echo") {
-        cout << "Menjadi entitas gema — bisa memanipulasi suara & ingatan.\n";
+        cout << "Menjadi entitas gema â€” bisa memanipulasi suara & ingatan.\n";
     } else if (paper == "Star") {
         cout << "Terangi dengan sepasang sayap kecil bercahaya.\n";
     } else {
@@ -358,7 +358,7 @@ team[4] = Character("Eliora", "", "");
     team[0].paper = PAPER_LIST[userPick].paper;
     team[0].power = PAPER_LIST[userPick].power;
 
-    cout << name << " membuka mata. Bukan rumah sakit — dia di dalam sebuah sekolah besar yang terasa aneh.\n";
+    cout << name << " membuka mata. Bukan rumah sakit â€” dia di dalam sebuah sekolah besar yang terasa aneh.\n";
     cout << name << " memutuskan untuk mengelilingi sekolah itu, diawali dari kelaas dimana dia terbangun.\n";
     cout << "Terlihat ada anak dengan surai biru sedang duduk sebelah jendela dia tidak bergerak sama sekali.\n";
     cout << "Apa yang kamu putuskan?\n";
@@ -467,14 +467,14 @@ team[4] = Character("Eliora", "", "");
     cout << ">1 [yes] \n>2 [no]:";
     cin >> perasaan;
     if (perasaan == 0){
-    	cout << name << " mengangguk pelan. 'Iya… dari tadi kayak ada yang manggil.'\n";
+    	cout << name << " mengangguk pelan. 'Iyaâ€¦ dari tadi kayak ada yang manggil.'\n";
 	} else {
 		cout << "Gak aku gak ngerasa apapun?\n";
 		cout << "'Hadeh, aku ngerasa ada yang aneh' jawab Mirayeon\n";
 	}
     cout << "Mirayeon dan " << name << " menyusuri rak-rak buku besar yang menjulang\n";
     cout << "tiba-tiba \nMirayeon berhenti. Ekspresinya berubah.\n";
-    cout << "'Ada gema… tapi aneh. Dia bergerak.'- Mirayeon\n";
+    cout << "'Ada gemaâ€¦ tapi aneh. Dia bergerak.'- Mirayeon\n";
     cout << "Ia memejamkan mata sejenak, mendengarkan frekuensi yang hanya dirinya yang bisa tangkap.\n";
     cout << "dan arah nya menuju...\n";
     cout << "Dorm mereka??. Lebih tepatnya kamar " << name << endl;
@@ -557,12 +557,12 @@ void lupakan(){
 	cout << "Pagi itu, seluruh kejadian di Eternis Arcane Academy memudar seperti mimpi yang larut bersama kabut. Tidak ada retakan cahaya, tidak ada suara tanduk, tidak ada portal.\n";
 	cout << "Hanya kosong.\n";
 	cout << "Dan ketenangan yang aneh.\n";
-	cout << "Kaelhin adalah yang pertama bangun di asrama, menatap langit-langit yang terasa terlalu bersih, terlalu putih—seolah tak pernah dilewati bayangan Antlered King\n";
+	cout << "Kaelhin adalah yang pertama bangun di asrama, menatap langit-langit yang terasa terlalu bersih, terlalu putihâ€”seolah tak pernah dilewati bayangan Antlered King\n";
 	cout << name << ", Kaelhin, Mirayeon, dan Astraella bangun tak lama kemudian. Mereka saling memandang lama seolah mereka tahu bahwa ada sesuatu yang hilang, namun tidak tahu apa\n";
-	cout << "Hari itu mereka tetap datang ke kelas. Tidak ada yang berubah.Eternis Arcane Academy tampak seperti sekolah biasa—tanpa misteri, tanpa bahaya, tanpa rahasia.\n";
+	cout << "Hari itu mereka tetap datang ke kelas. Tidak ada yang berubah.Eternis Arcane Academy tampak seperti sekolah biasaâ€”tanpa misteri, tanpa bahaya, tanpa rahasia.\n";
 	cout << "Mereka menjalani hari-hari seperti biasa. \nTertawa. Belajar. Bercanda.\n";
 	cout << "Yang tersisa hanya echo samar di dada mereka. Hangat, namun tidak memiliki wajah.\n";
-	cout << "Dan kehidupan terus berlanjut… \nseperti tidak pernah terjadi apa-apa.\n";
+	cout << "Dan kehidupan terus berlanjutâ€¦ \nseperti tidak pernah terjadi apa-apa.\n";
 	ending ();
 }
 void mencari(){
@@ -571,14 +571,14 @@ void mencari(){
 	cout << "Mereka semua memutuskan untuk mencari tahu lebih lanjut akan tetapi karena hari sudah malam jadi mereka semua memutuskan untuk tidur terlebih dahulu\n";
 	cout << "Setelah menemukan halaman sobek tentang Antlered King, Astraella dan Mirayeon tidak bisa tidur malam itu.\n";
 	cout << "Kata-kata misterius itu terus terngiang dalam benak mereka:\n";
-	cout << "He who collects totems… shall erase the road home.\n";
+	cout << "He who collects totemsâ€¦ shall erase the road home.\n";
 	cout << "Pagi itu, mereka mengumpulkan semua anggota tim: Eliora, Kaelhin, Mirayeon, "<< name << ", dan Astraella.\n";
 	cout << "Eliora duduk sambil memeluk bantal, wajahnya pucat.\n";
-	cout << "“Jadi… yang kalian temukan itu beneran?” tanyanya pelan.\n";
-	cout << "Mirayeon mengangguk. “Buku itu kayak… memanggil aku. Dan pas aku buka halaman sobek itu… tubuhku langsung dingin.”\n";
+	cout << "â€œJadiâ€¦ yang kalian temukan itu beneran?â€ tanyanya pelan.\n";
+	cout << "Mirayeon mengangguk. â€œBuku itu kayakâ€¦ memanggil aku. Dan pas aku buka halaman sobek ituâ€¦ tubuhku langsung dingin.â€\n";
 	cout << "'Aku udah coba nanya ke salah satu senior, tentang jalan keluar, dan dia langsung berubah sikap. Seolah itu topik terlarang.' ucap "<< name << endl;
 	cout << "Astraella akhirnya bicara, suaranya getar.\n";
-	cout << "'…kalian percaya nggak kalau kita… mungkin bukan benar-benar ‘datang’ ke sekolah ini dengan cara normal?'\n";
+	cout << "'â€¦kalian percaya nggak kalau kitaâ€¦ mungkin bukan benar-benar â€˜datangâ€™ ke sekolah ini dengan cara normal?'\n";
 	cout << "Semua terdiam.\n";
 	wis();
 	cout << "\n--- Penemuan Simbol Portal ---\n";
@@ -626,9 +626,9 @@ void mencari(){
     }
 
     
-    cout << "Astraella (Menyentuh pintu besi): Dingin banget. Kayak… bukan logam normal.\n";
+    cout << "Astraella (Menyentuh pintu besi): Dingin banget. Kayakâ€¦ bukan logam normal.\n";
     cout << "Pintu terbuka... Ruangan penuh lukisan siswa tanpa mata.\n";
-    cout << "Mirayeon: Ini sihir. Mereka… menghapus sesuatu.\n";
+    cout << "Mirayeon: Ini sihir. Merekaâ€¦ menghapus sesuatu.\n";
 
     int pilihanLukisan;
     cout << "\n**Pertanyaan Anda tentang lukisan:**\n";
@@ -651,12 +651,12 @@ void mencari(){
 
     cout << "\n*** Totem Raksasa & Antlered King ***\n";
     cout << "Mereka menemukan lima patung totem raksasa dengan celah kotak kecil.\n";
-    cout << "Kaelhin: Ini… bentuknya sama kayak… Antlered King.\n";
-    cout << "Astraella: Jadi ‘he who collects totems’… itu dia?\n";
+    cout << "Kaelhin: Iniâ€¦ bentuknya sama kayakâ€¦ Antlered King.\n";
+    cout << "Astraella: Jadi â€˜he who collects totemsâ€™â€¦ itu dia?\n";
 
     int pilihanTotem;
     cout << "\n**Pikiran ngeri Anda tentang Totem:**\n";
-    cout << "1. 'Kalau dia ngumpulin semua totem ini… jalan pulang kita bakal dihapus?'\n";
+    cout << "1. 'Kalau dia ngumpulin semua totem iniâ€¦ jalan pulang kita bakal dihapus?'\n";
     cout << "2. 'Apakah ini yang digunakan untuk menjebak kita? Kita harus menghancurkannya.'\n";
     cout << "Pilih (1 atau 2): ";
     system ("cls");
@@ -666,19 +666,19 @@ void mencari(){
     }
 
     if (pilihanTotem == 1) {
-        cout << name << " (Menelan ludah): Kalau dia ngumpulin semua totem ini… jalan pulang kita bakal dihapus?\n";
+        cout << name << " (Menelan ludah): Kalau dia ngumpulin semua totem iniâ€¦ jalan pulang kita bakal dihapus?\n";
     } else {
         cout << name << " (Cemas): Apakah ini yang digunakan untuk menjebak kita? Kita harus menghancurkannya.\n";
     }
     
 
-    cout << "Mirayeon: Bukan cuma kita… mungkin semua siswa. Atau pulau ini sendiri.\n";
+    cout << "Mirayeon: Bukan cuma kitaâ€¦ mungkin semua siswa. Atau pulau ini sendiri.\n";
     pauseLine();
 
     cout << "\n*** Daftar 'Chosen Subjects' ***\n";
     cout << "Meja kayu tua dan tumpukan catatan mengungkap nama mereka dalam daftar 'Chosen Subjects'.\n";
-    cout << "Kaelhin (Mengepalkan tangan): Ini bukan sekolah… ini eksperimen.\n";
-    cout << "Eliora (Jatuh berlutut): Kita cuma… umpan buat Antlered King?\n";
+    cout << "Kaelhin (Mengepalkan tangan): Ini bukan sekolahâ€¦ ini eksperimen.\n";
+    cout << "Eliora (Jatuh berlutut): Kita cumaâ€¦ umpan buat Antlered King?\n";
 
     int pilihanAkhir;
     cout << "\n**Keputusan Anda setelah tahu kebenasan (menggantikan 'Ayo kabur'):**\n";
@@ -699,7 +699,7 @@ void mencari(){
     }
 
     cout << "Astraella: Kita harus cari portal itu. Apapun caranya.\n";
-    cout << "Eliora: Apapun yang terjadi… kita tetap bareng, kan?\n";
+    cout << "Eliora: Apapun yang terjadiâ€¦ kita tetap bareng, kan?\n";
     cout << "Astraella: Selalu.\n";
 
     cout << "\n========================================\n";
